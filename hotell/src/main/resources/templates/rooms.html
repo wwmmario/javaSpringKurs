@@ -1,0 +1,252 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Rooms</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../static/style/custom.css" th:href="@{/style/custom.css}" />
+</head>
+<body>
+<div th:insert="blocks/header :: header"></div>
+
+
+
+<main>
+
+  <div class="py-5 text-center container">
+        <h1 class="fw-light">Rooms</h1>
+  </div>
+
+  <div class="album py-1 bg-light">
+    <div class="container">
+      <h2 class="fw-light">Luxury Suite</h2>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+              <img th:src="@{img/L01.jpg}" width="100%" height="100%"></img>
+            <div class="card-body">
+              <p class="card-text">Luxury Suite №1</p>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li >Hydromassage bathtub</li>
+                <li >Flat-screen TV</li>
+                <li >Satellite Channels</li>
+                <li >Safer for laptop</li>
+                <li >Pool view</li>
+                <li >Executive Lounge access</li>
+              </ul>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="location.href='book'">Book</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="location.href='price'">Price</button>
+                </div>
+                <small class="text-muted"></small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+              <img th:src="@{img/L02.jpg}" width="100%" height="100%" ></img>
+            <div class="card-body">
+              <p class="card-text">Luxury Suite №2</p>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li >Ironing facilities</li>
+                <li >Hydromassage bathtub</li>
+                <li >Flat-screen TV</li>
+                <li >Satellite Channels</li>
+                <li >Pool view</li>
+                <li >Executive Lounge access</li>
+              </ul>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="location.href='book'">Book</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="location.href='price'">Price</button>
+                </div>
+                <small class="text-muted"></small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img th:src="@{img/L03.jpg}" width="100%" height="100%" fill="#55595c"></img>
+            <div class="card-body">
+              <p class="card-text">Luxury Suite №3</p>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li >Minibar</li>
+                <li >Free toiletries</li>
+                <li >Computer booth</li>
+                <li >Flat-screen TV</li>
+                <li >Satellite Channels</li>
+                <li >Pool view</li>
+              </ul>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="location.href='book'">Book</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="location.href='price'">Price</button>
+                </div>
+                <small class="text-muted"></small>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+        </div>
+
+    <div class="album py-1 bg-light">
+      <div class="container">
+        <h2 class="fw-light">Premier Suite</h2>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img th:src="@{img/P01.jpg}" width="100%" height="100%" ></img>
+            <div class="card-body">
+              <p class="card-text">Premier Suite №1</p>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li >Hairdryer</li>
+                <li >Flat-screen TV</li>
+                <li >Satellite Channels</li>
+                <li >City view</li>
+                <li >Free toiletries</li>
+              </ul>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="location.href='book'">Book</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="location.href='price'">Price</button>
+                </div>
+                <small class="text-muted"></small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img th:src="@{img/P02.jpg}" width="100%" height="100%" ></img>
+            <div class="card-body">
+              <p class="card-text">Premier Suite №2</p>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li >Tea making facilities</li>
+                <li >Satellite Channels</li>
+                <li >Flat-screen TV</li>
+                <li >City view</li>
+                <li >Private meeting room</li>
+              </ul>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="location.href='book'">Book</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="location.href='price'">Price</button>
+                </div>
+                <small class="text-muted"></small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img th:src="@{img/P03.jpg}" width="100%" height="100%" ></img>
+            <div class="card-body">
+              <p class="card-text">Premier Suite №3</p>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li >Coffee making facilities</li>
+                <li >City view</li>
+                <li >Beauty Salon</li>
+                <li >Flat-screen TV</li>
+                <li >Free Parking</li>
+              </ul>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="location.href='book'">Book</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="location.href='price'">Price</button>
+                </div>
+                <small class="text-muted"></small>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="album py-1 bg-light">
+      <div class="container">
+        <h2 class="fw-light">Deluxe Suite</h2>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img th:src="@{img/D01.jpg}" width="100%" height="100%" ></img>
+            <div class="card-body">
+              <p class="card-text">Deluxe Suite №1</p>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li >Beds : 1 queen size</li>
+                <li >Max person : 1</li>
+                <li >Refreshments</li>
+                <li >Flat-screen TV</li>
+                <li >Garden view</li>
+                <li >Free Parking</li>
+              </ul>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="location.href='book'">Book</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="location.href='price'">Price</button>
+                </div>
+                <small class="text-muted"></small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img th:src="@{img/D02.jpg}" width="100%" height="100%"></img>
+            <div class="card-body">
+              <p class="card-text">Deluxe Suite №2</p>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Beds : 1 king size</li>
+                <li>Max person : 2</li>
+                <li>Breakfast til 11</li>
+                <li>Flat-screen TV</li>
+                <li>Balcony view</li>
+                <li>Room service 24/7</li>
+              </ul>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="location.href='book'">Book</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="location.href='price'">Price</button>
+                </div>
+                <small class="text-muted"></small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img th:src="@{img/D03.jpg}" width="100%" height="100%" ></img>
+            <div class="card-body">
+              <p class="card-text">Deluxe Suite №3</p>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li >Beds : 1 king / 2 single</li>
+                <li >Max person : 2</li>
+                <li >Dinner till 9</li>
+                <li >Flat-screen TV</li>
+                <li >Swimming pool</li>
+                <li >Laundry facility</li>
+              </ul>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="location.href='book'">Book</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="location.href='price'">Price</button>
+                </div>
+                <small class="text-muted"></small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+</main>
+<div th:insert="blocks/footer :: footer"></div>
+</body>
+</html>

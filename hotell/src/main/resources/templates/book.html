@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Booking</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" >
+    <link rel="stylesheet" href="../static/style/custom.css" th:href="@{/style/custom.css}" />
+    <link rel="stylesheet" href="../static/style/skeleton.css" th:href="@{/style/skeleton.css}" />
+
+</head>
+
+<body>
+<div th:insert="blocks/header :: header"></div>
+<div th:insert="blocks/headerUser :: headerUser"></div>
+
+<div class="container">
+    <main class="col-md-11 ms-sm-auto col-lg-10 px-md-4">
+      <div class="container mt-5" >
+          <h1>Booking a room</h1>
+          <hr>
+              <h3>Book room</h3>
+              <form action="/book" method="post">
+                  <span th:each="el:${user}" ><input type="text" name="name_book" placeholder="Check in when" class="form-control" th:value="${el.name}" readonly></span><br>
+                  <input type="date" name="data_in" placeholder="Check in when" class="form-control" value="current_date_time_block" id="current_date_time_block"><br>
+                  <input type="date" name="data_out" placeholder="Check out when" class="form-control"><br>
+                  <select name="room" class="form-control">
+                      <optgroup label="Luxury Suite">
+                          <option value="Luxury Suite №1">Luxury Suite №1</option>
+                          <option value="Luxury Suite №2">Luxury Suite №2</option>
+                          <option value="Luxury Suite №3">Luxury Suite №3</option>
+                      </optgroup>
+                      <optgroup label="Premier Suite">
+                          <option value="Premier Suite №1">Premier Suite №1</option>
+                          <option value="Premier Suite №2">Premier Suite №2</option>
+                          <option value="Premier Suite №3">Premier Suite №3</option>
+                      </optgroup>
+                      <optgroup label="Deluxe Suite">
+                          <option value="Deluxe Suite №1">Deluxe Suite №1</option>
+                          <option value="Deluxe Suite №2">Deluxe Suite №2</option>
+                          <option value="Deluxe Suite №3">Deluxe Suite №3</option>
+                      </optgroup>
+                  </select><br>
+
+                  <button type="submit" class="btn btn-outline-success">Send</button>
+              </form>
+          </div>
+    </main>
+</div>
+
+
+
+
+<script type="text/javascript">
+
+    /* функция добавления ведущих нулей */
+    /* (если число меньше десяти, перед числом добавляем ноль) */
+    function zero_first_format(value)
+    {
+        if (value < 10)
+        {
+            value='0'+value;
+        }
+        return value;
+    }
+
+    /* функция получения текущей даты и времени */
+    function date_time()
+    {
+        var current_datetime = new Date();
+        var day = zero_first_format(current_datetime.getDate());
+        var month = zero_first_format(current_datetime.getMonth()+1);
+        var year = current_datetime.getFullYear();
+
+
+        return day+"."+month+"."+year;
+    }
+
+    /* выводим текущую дату и время на сайт в блок с id "current_date_time_block" */
+    document.getElementById('current_date_time_block').innerHTML = date_time();
+</script>
+
+
+<div th:insert="blocks/footer :: footer"></div>
+<script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js" integrity="sha384-uO3SXW5IuS1ZpFPKugNNWqTZRRglnUJK6UAZ/gxOX80nxEkN9NcGZTftn6RzhGWE" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js" integrity="sha384-zNy6FEbO50N+Cg5wap8IKA4M/ZnLJgzc6w2NqACZaK0u0FXfOWRRJOnQtpZun8ha" crossorigin="anonymous"></script><script src="dashboard.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Clients</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js">
+  <link rel="stylesheet" href="../static/style/custom.css" th:href="@{/style/custom.css}" />
+</head>
+
+<body>
+<div th:insert="blocks/header :: header"></div>
+
+
+
+
+  <div class="container mt-5 mb-5" >
+    <div th:insert="blocks/headerAdmin :: headerAdmin"></div>
+    <h3>Clients</h3>
+    <table class="table table-striped">
+      <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col" >Name</th>
+        <th scope="col" >Mail</th>
+        <th scope="col" >Phone</th>
+        <th scope="col" >Password</th>
+        <th scope="col" >Role</th>
+        <th scope="col" >Delete</th>
+        <th scope="col" >Edit/Add</th>
+      </tr>
+      </thead>
+
+      <tbody>
+      <tr   th:each="el:${users}">
+        <th scope="col" ></th>
+        <th scope="col" th:text="${el.name}"></th>
+        <th scope="col" th:text="${el.mail}"></th>
+        <th scope="col" th:text="${el.phone}"></th>
+        <th scope="col" th:text="${el.password}"></th>
+        <th scope="col" th:text="${el.role}"></th>
+        <th><form th:action="'/user-controller/remove/' + ${el.name} " method="post">
+          <button class="btn btn-outline-danger" type="submit">Удалить</button>
+        </form></th>
+        <th> <a th:href="'/user-controller/edit/' + ${el.name} " class="btn btn-outline-primary">Редактировать</a></th>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+
+
+<div th:insert="blocks/footer :: footer"></div>
+
+</body>
+</html>
