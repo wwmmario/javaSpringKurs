@@ -140,7 +140,9 @@ error-not-found.html <br>
  ![image](https://user-images.githubusercontent.com/117315569/212824913-6296a4de-9fd7-4c6f-9822-ee6c537302b7.png)
 
  user-controller.html<br>
- ![image](https://user-images.githubusercontent.com/117315569/212824773-c9b33bbd-7747-4940-aeff-beedb121c221.png)
+ ![image](https://user-images.githubusercontent.com/117315569/213052446-d8538cf5-3041-4312-a2df-08c2116e23e7.png)
+ user.html<br>
+ ![image](https://user-images.githubusercontent.com/117315569/213052746-dfd4f980-5832-4fe4-8ce4-4b20163b8f4e.png)
 
 <h2>Как собрать проект</h2><br>
 <hr>
