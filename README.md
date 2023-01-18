@@ -80,7 +80,7 @@ headerUser.html<br>
 ![image](https://user-images.githubusercontent.com/117315569/212824077-bd72f49e-32c2-436b-b921-8a7de72b7a48.png)
 
 admin.html<br>
-![image](https://user-images.githubusercontent.com/117315569/212824650-6329cf29-80e9-4621-8ab6-c8deee99d950.png)
+![image](https://user-images.githubusercontent.com/117315569/213049035-4d8efe23-09d8-47c4-bf1d-6c07d64b7a5b.png)
 
 blog-add.html<br>
 ![image](https://user-images.githubusercontent.com/117315569/212824670-7df60c74-a128-48d0-8167-bdbccc3b8feb.png)
