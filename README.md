@@ -84,13 +84,13 @@ admin.html<br>
 ![image](https://user-images.githubusercontent.com/117315569/213049035-4d8efe23-09d8-47c4-bf1d-6c07d64b7a5b.png)
 
 blog-add.html<br>
-![image](https://user-images.githubusercontent.com/117315569/212824670-7df60c74-a128-48d0-8167-bdbccc3b8feb.png)
+![image](https://user-images.githubusercontent.com/117315569/213053338-6764bfbd-7763-4c72-bd42-7bddeb90a17a.png)
 
 blog-details.html<br>
-![image](https://user-images.githubusercontent.com/117315569/212824610-bf495418-2f05-48aa-b44c-1a1d23e73e91.png)
+![image](https://user-images.githubusercontent.com/117315569/213053377-7b05972b-2f4c-4e53-b16c-faa78b3d5739.png)
 
 blog-edit.html<br>
-![image](https://user-images.githubusercontent.com/117315569/212824697-8adaa8ed-65f1-413d-a6ca-1de020ab6b42.png)
+![image](https://user-images.githubusercontent.com/117315569/213053419-dd786bdd-68b9-41a7-a02d-28e65c7e922d.png)
 
 blog-main.html<br>
 ![image](https://user-images.githubusercontent.com/117315569/212824586-32085d97-052d-4c90-ba20-d34c7608e555.png)
