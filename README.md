@@ -116,10 +116,10 @@ error-not-found.html <br>
  ![image](https://user-images.githubusercontent.com/117315569/212824543-cb15aee6-e341-4736-9702-a598d85389d1.png)
 
  question.html<br>
- ![image](https://user-images.githubusercontent.com/117315569/212825241-4c041b88-be56-46f1-bc53-cab79e12b9d3.png)
+![image](https://user-images.githubusercontent.com/117315569/213053978-7efe03da-07b3-4ac4-a3bd-bf26c91123b2.png)
 
  question-edit.html<br>
-![image](https://user-images.githubusercontent.com/117315569/213053522-73fd5fcf-9f14-44b8-9339-6c630f68e937.png)
+![image](https://user-images.githubusercontent.com/117315569/213053961-7179ff48-3dcd-4f48-90d9-9ec0ddc2cbcc.png)
 
 
  registration.html<br>
