@@ -61,10 +61,13 @@ HTML- и CSS-шаблоны Bootstrap (https://getbootstrap.com/) и
 <h2>Models</h2><br>
 <hr>
 <p>Блоки Header и Footer</p> <br>
+
 footer.html<br>
 ![image](https://user-images.githubusercontent.com/117315569/213052893-ea96aa9c-baa4-4c62-a57e-50af12b67297.png)
+
 header.html<br>
 ![image](https://user-images.githubusercontent.com/117315569/212823696-c5f45944-4dfb-48a2-96ef-498a2d2bd100.png)
+
 headerAdmin.html<br>
 ![image](https://user-images.githubusercontent.com/117315569/212823870-d9c667d2-d389-4aac-ab20-c651c83c9450.png)
 
