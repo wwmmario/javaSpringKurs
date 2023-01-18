@@ -119,7 +119,7 @@ error-not-found.html <br>
  ![image](https://user-images.githubusercontent.com/117315569/212825241-4c041b88-be56-46f1-bc53-cab79e12b9d3.png)
 
  question-edit.html<br>
-![image](https://user-images.githubusercontent.com/117315569/212825271-375df842-4fa1-4423-91d6-35e79c0efb37.png)
+![image](https://user-images.githubusercontent.com/117315569/213053522-73fd5fcf-9f14-44b8-9339-6c630f68e937.png)
 
 
  registration.html<br>
