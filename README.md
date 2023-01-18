@@ -106,10 +106,10 @@ error-not-found.html <br>
 ![image](https://user-images.githubusercontent.com/117315569/212824483-2dee0d41-b942-49cc-8738-892d094c0f63.png)
 
  login.html<br>
- ![image](https://user-images.githubusercontent.com/117315569/212825050-ce518422-4931-4f5c-adcf-7b511c725144.png)
+ ![image](https://user-images.githubusercontent.com/117315569/213050536-762e8b61-fe6a-4ad6-9b70-7add3e153a76.png)
 
  manager.html<br>
- ![image](https://user-images.githubusercontent.com/117315569/212825438-68d1f184-f272-4184-b306-984cd3fbba4a.png)
+ ![image](https://user-images.githubusercontent.com/117315569/213051528-00aebfb5-c76d-4106-8c58-4f69db8ea977.png)
 
  price.html<br>
  ![image](https://user-images.githubusercontent.com/117315569/212824543-cb15aee6-e341-4736-9702-a598d85389d1.png)
