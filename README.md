@@ -95,7 +95,7 @@ blog-main.html<br>
 ![image](https://user-images.githubusercontent.com/117315569/212824586-32085d97-052d-4c90-ba20-d34c7608e555.png)
 
 book.html<br>
-![image](https://user-images.githubusercontent.com/117315569/212824321-881996be-3e61-4557-be64-e0db701207ec.png)
+![image](https://user-images.githubusercontent.com/117315569/213050111-854f29d8-21e8-48a6-a79b-53bf0930ec02.png)
 
 error-not-found.html <br>
 ![image](https://user-images.githubusercontent.com/117315569/212825500-d60fb3ed-bfc0-4eda-9650-420db387469a.png)
@@ -138,9 +138,6 @@ error-not-found.html <br>
 
  special-edit.html<br>
  ![image](https://user-images.githubusercontent.com/117315569/212824913-6296a4de-9fd7-4c6f-9822-ee6c537302b7.png)
-
- user.html<br>
-![image](https://user-images.githubusercontent.com/117315569/212824241-5fb9f6a5-6736-406d-81e9-0ee8465f5025.png)
 
  user-controller.html<br>
  ![image](https://user-images.githubusercontent.com/117315569/212824773-c9b33bbd-7747-4940-aeff-beedb121c221.png)
