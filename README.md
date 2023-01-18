@@ -122,7 +122,7 @@ error-not-found.html <br>
 
 
  registration.html<br>
- ![image](https://user-images.githubusercontent.com/117315569/212825074-023f9c2d-c0e2-4bf7-959d-69870bf83154.png)
+ ![image](https://user-images.githubusercontent.com/117315569/213051959-bbf7ce00-8075-4476-9ed2-c27a62fc5de4.png)
 
  reserve.html<br>
  ![image](https://user-images.githubusercontent.com/117315569/212824812-69d220ed-e603-4f9f-9602-d113d8412e81.png)
