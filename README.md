@@ -138,7 +138,7 @@ error-not-found.html <br>
  ![image](https://user-images.githubusercontent.com/117315569/212824889-ce7cb91f-871a-4bc5-9cac-6baf09b78233.png)
 
  special-edit.html<br>
- ![image](https://user-images.githubusercontent.com/117315569/212824913-6296a4de-9fd7-4c6f-9822-ee6c537302b7.png)
+ ![image](https://user-images.githubusercontent.com/117315569/213053250-1c84d39c-8462-463c-9c12-5061edcb5ffd.png)
 
  user-controller.html<br>
  ![image](https://user-images.githubusercontent.com/117315569/213052446-d8538cf5-3041-4312-a2df-08c2116e23e7.png)
