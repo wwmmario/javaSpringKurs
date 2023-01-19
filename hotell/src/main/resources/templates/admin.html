@@ -1,13 +1,12 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-  <title>Admin Home</title>
+  <title>User Admin</title>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" >
   <link rel="stylesheet" href="../static/style/custom.css" th:href="@{/style/custom.css}" />
   <link rel="stylesheet" href="../static/style/skeleton.css" th:href="@{/style/skeleton.css}" />
-
 
 
 </head>
@@ -20,32 +19,32 @@
 
 <div class="main">
 
-  <h1>Welcome to the Admin Page</h1>
+  <center><h1>Welcome to the Admin Page</h1></center>
   <hr>
-  <table class="table">
+  <table class="table" style="margin: auto; width:0%;">
     <tbody>
     <tr>
-      <td>
-      </td>
-      <td>
-      </td>
-      <td>
-      </td>
-      <td>
-      </td>
-      <td><div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+      <td><div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm position-relative" style="width: 500px; height:300px;">
         <div class="col p-4 d-flex flex-column position-static">
           <h3>Tasks</h3>
           <hr>
         </div>
-      </div></td>
+      </div>
+      </td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
       <td>
         <div th:each="el:${user}">
-        <svg class="wewe" th:data-jdenticon-value="${el.name}"  width="140" height="140"></svg>
-        <p><h2 style="text-align: center;" th:text="${el.role}"/></p>
-        <p style="text-align: center;" >Username: <span style="text-align: center;" th:text="${el.name}"/></p>
-        <p style="text-align: center;">Phone: <span style="text-align: center;" th:text="${el.phone}"/></p>
-        <p style="text-align: center;">Mail: <span style="text-align: center;" th:text="${el.mail}"/></p>
+          <svg class="wewe" th:data-jdenticon-value="${el.name}"  width="140" height="140"></svg>
+          <p><h2 style="text-align: center;" th:text="${el.role}"/></p>
+          <p style="text-align: center;" >Username: <span style="text-align: center;" th:text="${el.name}"/></p>
+          <p style="text-align: center;">Phone: <span style="text-align: center;" th:text="${el.phone}"/></p>
+          <p style="text-align: center;">Mail: <span style="text-align: center;" th:text="${el.mail}"/></p>
         </div>
       </td>
     </tr>
@@ -53,10 +52,21 @@
   </table>
 
 
-  </div>
+</div>
 
 <script src="https://cdn.jsdelivr.net/npm/jdenticon@3.2.0/dist/jdenticon.min.js"></script>
+<script>
+var close = document.getElementsByClassName("btn-close");
+var i;
 
-<div th:insert="blocks/footer :: footer"></div>
+for (i = 0; i < close.length; i++) {
+    close[i].onclick = function(){
+        var div = this.parentElement;
+        div.style.opacity = "0";
+        setTimeout(function(){ div.style.display = "none"; }, 600);
+    }
+}
+</script>
+<div class="footerr" th:insert="blocks/footer :: footer"></div>
 </body>
 </html>

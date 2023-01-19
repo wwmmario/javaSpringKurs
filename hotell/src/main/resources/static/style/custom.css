@@ -177,19 +177,13 @@ Select
 
 
 
-footer{
+.footerr{
     position: absolute;
     bottom: 0;
-    left:30%;
-    right:30%
+    left:10%;
+    right:10%
 }
 
-{
-    position: absolute;
-    bottom: 0;
-    left:30%;
-    right:30%
-}
 
 .wewe {
     display: block;
@@ -197,12 +191,17 @@ footer{
     margin-right: auto }
 
 .divav{
-    width: 50%;
+    width: 60%;
 }
 
 .diva{
      width: 70%;
      margin-left: 10%;
+}
+
+.bb{
+    color: black; /* Цвет ссылок */
+    text-decoration: none; /* Убираем подчёркивание */
 }
 
 

@@ -221,14 +221,16 @@ th:last-child,
 td:last-child {
   padding-right: 0; }
 
- a {
+.aw {
     color: white; /* Цвет ссылок */
     text-decoration: none; /* Убираем подчёркивание */
    }
-.bb{
+.bb {
     color: black; /* Цвет ссылок */
     text-decoration: none; /* Убираем подчёркивание */
 }
+
+
 /* Utilities
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .u-full-width {
