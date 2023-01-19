@@ -63,87 +63,79 @@ HTML- и CSS-шаблоны Bootstrap (https://getbootstrap.com/) и
 <p>Блоки Header и Footer</p> <br>
 
 footer.html<br>
-![image](https://user-images.githubusercontent.com/117315569/213052893-ea96aa9c-baa4-4c62-a57e-50af12b67297.png)
+![image](https://user-images.githubusercontent.com/117315569/213351965-3e29225e-4143-4641-8624-058abd0dd6f9.png)
 
 header.html<br>
-![image](https://user-images.githubusercontent.com/117315569/212823696-c5f45944-4dfb-48a2-96ef-498a2d2bd100.png)
-
-headerAdmin.html<br>
-![image](https://user-images.githubusercontent.com/117315569/212823870-d9c667d2-d389-4aac-ab20-c651c83c9450.png)
-
-headerManager.html<br>
-![image](https://user-images.githubusercontent.com/117315569/212823997-4d78d8f0-b2ce-482e-ac01-cd188f9088bf.png)
-
-headerUnivers.html<br>
-![image](https://user-images.githubusercontent.com/117315569/212824029-5abb9c6b-33bc-43a5-a88c-0270731a7e1d.png)
-
-headerUser.html<br>
-![image](https://user-images.githubusercontent.com/117315569/212824077-bd72f49e-32c2-436b-b921-8a7de72b7a48.png)
+![image](https://user-images.githubusercontent.com/117315569/213351993-38a7958b-4bd8-4190-9310-3403ce10c9fb.png)
 
 admin.html<br>
-![image](https://user-images.githubusercontent.com/117315569/213049035-4d8efe23-09d8-47c4-bf1d-6c07d64b7a5b.png)
+![image](https://user-images.githubusercontent.com/117315569/213352069-9746ce6c-7e14-4d43-98f8-5c108f0a4edf.png)
 
 blog-add.html<br>
-![image](https://user-images.githubusercontent.com/117315569/213053338-6764bfbd-7763-4c72-bd42-7bddeb90a17a.png)
+![image](https://user-images.githubusercontent.com/117315569/213352121-1bb1ca92-cd49-432e-821b-245b02ee9a58.png)
 
 blog-details.html<br>
-![image](https://user-images.githubusercontent.com/117315569/213053377-7b05972b-2f4c-4e53-b16c-faa78b3d5739.png)
+![image](https://user-images.githubusercontent.com/117315569/213352163-b0be3f86-bb65-460a-9845-e4bac6c5ce4a.png)
 
 blog-edit.html<br>
-![image](https://user-images.githubusercontent.com/117315569/213053419-dd786bdd-68b9-41a7-a02d-28e65c7e922d.png)
+![image](https://user-images.githubusercontent.com/117315569/213352212-54c858ca-165f-4d43-8db1-d76999a85604.png)
 
 blog-main.html<br>
-![image](https://user-images.githubusercontent.com/117315569/212824586-32085d97-052d-4c90-ba20-d34c7608e555.png)
+![image](https://user-images.githubusercontent.com/117315569/213352269-ddc96106-3422-4dde-9136-ec0475d7a442.png)
 
 book.html<br>
-![image](https://user-images.githubusercontent.com/117315569/213050111-854f29d8-21e8-48a6-a79b-53bf0930ec02.png)
+![image](https://user-images.githubusercontent.com/117315569/213352324-566d58b1-da8d-4b0d-9037-c49a594b9b8d.png)
 
 error-not-found.html <br>
-![image](https://user-images.githubusercontent.com/117315569/212825500-d60fb3ed-bfc0-4eda-9650-420db387469a.png)
+![image](https://user-images.githubusercontent.com/117315569/213352377-5733bb17-47a7-450d-adbe-a78e98a9ef0b.png)
 
  home.html <br>
- ![image](https://user-images.githubusercontent.com/117315569/212824381-f121d91b-5509-46e5-85ee-e27ae8e460fe.png)
-![image](https://user-images.githubusercontent.com/117315569/212824438-b03faa3c-4073-491d-99b8-95e65de03ed7.png)
-![image](https://user-images.githubusercontent.com/117315569/212824483-2dee0d41-b942-49cc-8738-892d094c0f63.png)
+![image](https://user-images.githubusercontent.com/117315569/213352425-dd5b4055-d646-4adc-b8e6-be02e358ca6b.png)
+![image](https://user-images.githubusercontent.com/117315569/213352457-545a6654-f99e-4249-be68-2ffe138e8eb5.png)
+![image](https://user-images.githubusercontent.com/117315569/213352502-92eabead-8496-44ed-ade3-4b1519931a0c.png)
 
  login.html<br>
- ![image](https://user-images.githubusercontent.com/117315569/213050536-762e8b61-fe6a-4ad6-9b70-7add3e153a76.png)
+![image](https://user-images.githubusercontent.com/117315569/213352530-4a68265c-769c-473e-9d0f-de31bc2b036a.png)
 
  manager.html<br>
- ![image](https://user-images.githubusercontent.com/117315569/213051528-00aebfb5-c76d-4106-8c58-4f69db8ea977.png)
+![image](https://user-images.githubusercontent.com/117315569/213352568-7c79a058-eca4-4f1c-9d1a-8e8eb707a8c9.png)
 
  price.html<br>
- ![image](https://user-images.githubusercontent.com/117315569/212824543-cb15aee6-e341-4736-9702-a598d85389d1.png)
+![image](https://user-images.githubusercontent.com/117315569/213352597-61f58897-0fae-4b88-85bd-f7ab7df8363d.png)
 
  question.html<br>
- ![image](https://user-images.githubusercontent.com/117315569/212825241-4c041b88-be56-46f1-bc53-cab79e12b9d3.png)
+![image](https://user-images.githubusercontent.com/117315569/213352623-b1fc02aa-6d47-4f0c-a8ef-4012f05872fd.png)
 
  question-edit.html<br>
-![image](https://user-images.githubusercontent.com/117315569/213053522-73fd5fcf-9f14-44b8-9339-6c630f68e937.png)
-
+![image](https://user-images.githubusercontent.com/117315569/213352660-55570ebf-8a73-4295-aedd-801ac52c6774.png)
 
  registration.html<br>
- ![image](https://user-images.githubusercontent.com/117315569/213051959-bbf7ce00-8075-4476-9ed2-c27a62fc5de4.png)
+![image](https://user-images.githubusercontent.com/117315569/213352712-c975f389-c198-49af-9f9f-868b75e3e3a4.png)
 
  reserve.html<br>
- ![image](https://user-images.githubusercontent.com/117315569/212824812-69d220ed-e603-4f9f-9602-d113d8412e81.png)
+![image](https://user-images.githubusercontent.com/117315569/213352751-b0fe0167-0267-4eb4-a368-bbf8ca1103cb.png)
 
  reserve-edit.html<br>
- ![image](https://user-images.githubusercontent.com/117315569/212825134-669deaa5-79e5-43b7-8275-cd426101cae2.png)
+![image](https://user-images.githubusercontent.com/117315569/213352784-2201313f-9fe4-4bb7-a603-598b4faa6c4b.png)
 
  rooms.html<br>
- ![image](https://user-images.githubusercontent.com/117315569/212824509-885e1746-a2a4-47e4-9ee6-b2a807f2f6ff.png)
+![image](https://user-images.githubusercontent.com/117315569/213352838-f1b1dcb0-e851-4f0d-ae8d-2926028cde75.png)
 
  special.html<br>
- ![image](https://user-images.githubusercontent.com/117315569/212824889-ce7cb91f-871a-4bc5-9cac-6baf09b78233.png)
+![image](https://user-images.githubusercontent.com/117315569/213352926-28cc046a-77ac-4479-b4ed-52342f6c6276.png)
 
  special-edit.html<br>
- ![image](https://user-images.githubusercontent.com/117315569/213053250-1c84d39c-8462-463c-9c12-5061edcb5ffd.png)
+![image](https://user-images.githubusercontent.com/117315569/213352965-672790df-21de-4145-819b-616e57810b04.png)
 
  user-controller.html<br>
- ![image](https://user-images.githubusercontent.com/117315569/213052446-d8538cf5-3041-4312-a2df-08c2116e23e7.png)
+![image](https://user-images.githubusercontent.com/117315569/213353017-238c1e17-e4bc-4929-802c-39de7936ed0e.png)
+
+ user-edit.html<br>
+![image](https://user-images.githubusercontent.com/117315569/213353132-b235b344-1190-4a37-b25a-b84812c6e11a.png)
+
  user.html<br>
- ![image](https://user-images.githubusercontent.com/117315569/213052746-dfd4f980-5832-4fe4-8ce4-4b20163b8f4e.png)
+![image](https://user-images.githubusercontent.com/117315569/213353193-d73c2615-fe68-4933-af8d-d31b41f0a83f.png)
+
 
 <h2>Как собрать проект</h2><br>
 <hr>
